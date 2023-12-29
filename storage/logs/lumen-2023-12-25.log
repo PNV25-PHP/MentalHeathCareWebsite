@@ -1,0 +1,61 @@
+[2023-12-25 16:00:53] local.ERROR: A facade root has not been set. {"exception":"[object] (RuntimeException(code: 0): A facade root has not been set. at D:\\MentalHealthCareApp\\vendor\\illuminate\\support\\Facades\\Facade.php:352)
+[stacktrace]
+#0 D:\\MentalHealthCareApp\\bootstrap\\app.php(111): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#1 D:\\MentalHealthCareApp\\public\\index.php(14): require('...')
+#2 {main}
+"} 
+[2023-12-25 16:01:16] local.ERROR: A facade root has not been set. {"exception":"[object] (RuntimeException(code: 0): A facade root has not been set. at D:\\MentalHealthCareApp\\vendor\\illuminate\\support\\Facades\\Facade.php:352)
+[stacktrace]
+#0 D:\\MentalHealthCareApp\\bootstrap\\app.php(111): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#1 D:\\MentalHealthCareApp\\public\\index.php(14): require('...')
+#2 {main}
+"} 
+[2023-12-25 16:02:22] local.ERROR: could not find driver {"exception":"[object] (PDOException(code: 0): could not find driver at D:\\MentalHealthCareApp\\vendor\\illuminate\\database\\Connectors\\Connector.php:65)
+[stacktrace]
+#0 D:\\MentalHealthCareApp\\vendor\\illuminate\\database\\Connectors\\Connector.php(65): PDO->__construct()
+#1 D:\\MentalHealthCareApp\\vendor\\illuminate\\database\\Connectors\\Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection()
+#2 D:\\MentalHealthCareApp\\vendor\\illuminate\\database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection()
+#3 D:\\MentalHealthCareApp\\vendor\\illuminate\\database\\Connectors\\ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect()
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 D:\\MentalHealthCareApp\\vendor\\illuminate\\database\\Connection.php(1319): call_user_func()
+#6 D:\\MentalHealthCareApp\\bootstrap\\app.php(111): Illuminate\\Database\\Connection->getPdo()
+#7 D:\\MentalHealthCareApp\\public\\index.php(14): require('...')
+#8 {main}
+"} 
+[2023-12-25 16:22:47] local.ERROR:  {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0):  at D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php:235)
+[stacktrace]
+#0 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(174): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#1 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#2 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline()
+#3 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#4 D:\\MentalHealthCareApp\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#5 {main}
+"} 
+[2023-12-25 16:33:47] local.ERROR: Call to a member function run() on int {"exception":"[object] (Error(code: 0): Call to a member function run() on int at D:\\MentalHealthCareApp\\public\\index.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-25 16:38:22] local.ERROR: Call to undefined function asset() {"exception":"[object] (Error(code: 0): Call to undefined function asset() at D:\\MentalHealthCareApp\\resources\\views\\SignUp.php:47)
+[stacktrace]
+#0 D:\\MentalHealthCareApp\\vendor\\illuminate\\filesystem\\Filesystem.php(124): require()
+#1 D:\\MentalHealthCareApp\\vendor\\illuminate\\filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 D:\\MentalHealthCareApp\\vendor\\illuminate\\view\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#3 D:\\MentalHealthCareApp\\vendor\\illuminate\\view\\Engines\\PhpEngine.php(38): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#4 D:\\MentalHealthCareApp\\vendor\\illuminate\\view\\View.php(207): Illuminate\\View\\Engines\\PhpEngine->get()
+#5 D:\\MentalHealthCareApp\\vendor\\illuminate\\view\\View.php(190): Illuminate\\View\\View->getContents()
+#6 D:\\MentalHealthCareApp\\vendor\\illuminate\\view\\View.php(159): Illuminate\\View\\View->renderContents()
+#7 D:\\MentalHealthCareApp\\vendor\\illuminate\\http\\Response.php(69): Illuminate\\View\\View->render()
+#8 D:\\MentalHealthCareApp\\vendor\\illuminate\\http\\Response.php(35): Illuminate\\Http\\Response->setContent()
+#9 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(451): Illuminate\\Http\\Response->__construct()
+#10 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(390): Laravel\\Lumen\\Application->prepareResponse()
+#11 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(356): Laravel\\Lumen\\Application->callControllerCallable()
+#12 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(331): Laravel\\Lumen\\Application->callLumenController()
+#13 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction()
+#14 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#15 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute()
+#16 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#17 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline()
+#18 D:\\MentalHealthCareApp\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#19 D:\\MentalHealthCareApp\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#20 {main}
+"} 
